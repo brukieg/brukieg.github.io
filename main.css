@@ -1,4 +1,45 @@
+html { 
+  background: url(images/wall.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 body {
-	background-color: #908C8A;
-	color: #ffffff;
+    color: #aa816b;
+    font-family: wire-one, sans-serif;
+}
+p {
+    text-align: left;
+    font-weight: 100;
+    font-size: 1em;
+    width: 12em;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 900;
+    line-height: 3em;
+}    
+
+footer {
+    font-size: 1em;
+    margin-bottom: 2px;
+}
+
+#slogan {
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 8em;
+    color: #ffffff;
+    width: auto;
+}
+
+ul {
+    line-height: 1em;
+    color: #000000;
+    background-position: left;
+    
 }
