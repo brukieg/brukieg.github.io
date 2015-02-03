@@ -1,18 +1,13 @@
-html { 
-  background: url(images/wall.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 body {
-    color: #aa816b;
-    font-family: wire-one, sans-serif;
+  background: url(images/wall.png) no-repeat center center fixed;
+  background-size: cover;
+  color: #aa816b;
+  font-family: 'wire-one', sans-serif;
+}
+footer {
 }
 p {
-    text-align: left;
     font-weight: 100;
-    font-size: 1em;
     width: 12em;
 }
 
@@ -20,13 +15,11 @@ h1 {
     font-size: 3em;
     font-weight: 900;
     line-height: 3em;
-}    
-
-footer {
-    font-size: 1em;
-    margin-bottom: 2px;
 }
-
+ul {
+    line-height: 1em;
+    color: #000000;
+}
 #slogan {
     font-size: 2em;
     font-style: italic;
@@ -34,12 +27,5 @@ footer {
     text-align: center;
     margin-top: 8em;
     color: #ffffff;
-    width: auto;
-}
-
-ul {
-    line-height: 1em;
-    color: #000000;
-    background-position: left;
-    
+    width:auto;
 }
