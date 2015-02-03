@@ -6,6 +6,11 @@ body {
 }
 footer {
 }
+div {
+  background:red;
+  padding:1em;
+  width:12em;
+}
 p {
     font-weight: 100;
     width: 12em;
