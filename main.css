@@ -1,36 +1,31 @@
 body {
-  background: url(images/Wall.png) no-repeat center center fixed;
-  background-size: cover;
-  color: #aa816b;
-  font-family: 'wire-one', sans-serif;
-}
-footer {
-}
-div {
-  background:rgba(255,255,255,.6);
-  padding:1em;
-  width:12em;
-}
-p {
-    font-weight: 100;
-    width: 12em;
+    background: url("images/fifi.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Khula', sans-serif;
 }
 
-h1 {
+
+h1{
+    background: url("images/mualogo.png");
+    color: #0000000;
     font-size: 3em;
-    font-weight: 900;
-    line-height: 3em;
-}
-ul {
-    line-height: 1em;
-    color: #000000;
-}
-#slogan {
-    font-size: 2em;
-    font-style: italic;
     font-weight: 100;
-    text-align: center;
-    margin-top: 8em;
-    color: #ffffff;
-    width:auto;
+    text-transform: uppercase;
+    margin-top: 100px;}
+p {
+    padding: 10px;
+} 
+
+#maincontent {
+    height: 100vh;
+    padding: 200px 100 0 200px;
+    margin: 2em;
+    font-style: italic;
 }
+#services {
+    height: 50vh;
+}
+
+     
