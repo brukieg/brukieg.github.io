@@ -3,29 +3,40 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    font-family: 'Khula', sans-serif;
+    font-family: 'Aktiv Grotesk Std', sans-serif;
+    padding: 0 0 0 30px;
 }
 
 
 h1{
-    background: url("images/mualogo.png");
     color: #0000000;
     font-size: 3em;
-    font-weight: 100;
+    font-weight: 300;
     text-transform: uppercase;
-    margin-top: 100px;}
-p {
+    text-align: left;
+    margin-top: 1em;
+    }
+
+h3 {
+    font-size: 1em;
+    font-weight: 600px;
     padding: 10px;
 } 
 
 #maincontent {
-    height: 100vh;
-    padding: 200px 100 0 200px;
-    margin: 2em;
+    height: 50vh;
+    margin: 200px 100 0 400px;
     font-style: italic;
+    text-align: left;
 }
 #services {
-    height: 50vh;
+    height: 30vh;
+    font-weight: 300;
+    margin-top: 1em;
+    line-height: 1em;
+    background: rgba(255,255,255,.5);
 }
 
+.boxes { 
+    width: 33.33%;}
      
