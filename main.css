@@ -7,36 +7,27 @@ body {
     padding: 0 0 0 30px;
 }
 
-
-h1{
-    color: #0000000;
-    font-size: 3em;
-    font-weight: 300;
-    text-transform: uppercase;
-    text-align: left;
-    margin-top: 1em;
-    }
-
 h3 {
-    font-size: 1em;
-    font-weight: 600px;
+    font-size: 1.5em;
+    font-weight: 100;
     padding: 10px;
+    text-transform: uppercase;
+    display: inline-block;
 } 
+
+img {padding: 5em 0;}
 
 #maincontent {
     height: 50vh;
     margin: 200px 100 0 400px;
     font-style: italic;
-    text-align: left;
 }
 #services {
-    height: 30vh;
-    font-weight: 300;
-    margin-top: 1em;
+    height: 40vh;
     line-height: 1em;
     background: rgba(255,255,255,.5);
 }
-
-.boxes { 
-    width: 33.33%;}
-     
+.boxes {
+    padding: 1em;
+    
+}
