@@ -1,0 +1,36 @@
+ * { margin:0; padding:0; box-sizing: border-box; }
+
+body {
+	font-family: Nimbus Sans, sans-serif;  
+	font-size: 18px;
+	color: rgb(24, 44,71);
+
+}
+header {
+	padding: 1em;
+	display: block;
+	width: 1000;
+	text-align: left;
+}
+
+#splash { 
+	padding: 1em;
+	float: right;
+	max-width: 2000px;
+	display: inline-block;
+	font-size: 1.5em;
+	background: url(images);
+
+}
+
+ul {list-style: none;
+display: inline-block;
+}
+
+li {display: inline;
+	padding: 1.5em;
+	
+
+}
+img { float: left;
+padding: 1em;}
