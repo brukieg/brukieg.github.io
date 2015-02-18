@@ -1,24 +1,26 @@
  * { margin:0; padding:0; box-sizing: border-box; }
 
 body {
-	font-family: Nimbus Sans, sans-serif;  
+	font-family: 'Nimbus Sans', sans-serif;  
 	font-size: 18px;
 	color: rgb(24, 44,71);
 	background-image: url(images/bunny-in-color.jpg);
 	background-size: cover;
-}
-a {
-	text-decoration: none;
-	color: rgb(24, 44, 71);
-	padding: .5em;
-
+	background-repeat:no-repeat;
 }
 header { 
 	background: #ffffff;
 	padding: 1em 6em;
 	margin: 0;
-	float: left;
-	display: inline;
-	font-size: 1em;
 }
-
+header img {
+	float:left;
+}
+nav {
+	float:right;
+}
+nav a {
+	text-decoration: none;
+	color: rgb(24, 44, 71);
+	padding: .5em;
+}
