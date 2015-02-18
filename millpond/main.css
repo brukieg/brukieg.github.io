@@ -24,3 +24,10 @@ nav a {
 	color: rgb(24, 44, 71);
 	padding: .5em;
 }
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
