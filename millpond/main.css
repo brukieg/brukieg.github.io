@@ -69,3 +69,8 @@ section#main content {
 	width: 292px;
 	border-right:1px solid #b7b7b7;
 	height: 250px;
+}
+.columncontent {
+	list-style: none;
+}
+}
