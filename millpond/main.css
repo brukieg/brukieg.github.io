@@ -29,13 +29,14 @@ nav a {
 	clear: both;
 }
 section#splash {
-	display: block;
-	height: 568px;
-	width: 960px;
+	
 }
 section#splash img {
 	background-size: cover;
 	background-repeat: no-repeat;
+	display: block;
+	height: 568px;
+	width: 960px;
 }
 
 section#splash h2 { 
