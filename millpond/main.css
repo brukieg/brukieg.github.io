@@ -30,12 +30,10 @@ nav a {
 }
 section#splash {
 	background-image:url(images/bunnyincolor.jpg);
-
-}
-section#splash img {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
 section#splash h2 { 
 	font-style: italic;
 	font-weight: 100;
