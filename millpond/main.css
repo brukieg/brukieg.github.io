@@ -32,6 +32,9 @@ section#splash {
 	background-image:url(images/bunnyincolor.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	display: block;
+	height: 568px;
+	width: 960px;
 }
 
 section#splash h2 { 
