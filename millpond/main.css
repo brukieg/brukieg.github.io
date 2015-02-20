@@ -29,12 +29,13 @@ nav a {
 	clear: both;
 }
 section#splash {
-	background-image:url(images/bunnyincolor.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
 	display: block;
 	height: 568px;
 	width: 960px;
+}
+section#splash img {
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 section#splash h2 { 
