@@ -48,7 +48,7 @@ section#splash h2 {
 section#information {
 	padding: 0 3em;
 }
-class.column1 {
+.column1 {
 	float: left;
 	padding: 0 10px;
 	width: 292px;
