@@ -29,6 +29,7 @@ nav a {
 	clear: both;
 }
 section#splash {
+	background-image:url(images/bunnyincolor.jpg);
 
 }
 section#splash img {
