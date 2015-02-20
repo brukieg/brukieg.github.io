@@ -45,13 +45,27 @@ section#splash h2 {
 	font-size: 2em;
 	background-color: rgba(255,255,255,.5);
 }
-section#information {
-	padding: 0 3em;
+section#main content {
+	padding: 3em 0em 3em 0em;
 }
 .column1 {
 	float: left;
 	padding: 0 10px;
 	width: 292px;
 	border-right:1px solid #b7b7b7;
-	height: 292px;
+	height: 250px;
 }
+.column2 {
+	float: left;
+	padding: 0 10px;
+	width: 292px;
+	border-right:1px solid #b7b7b7;
+	border-left: 1px solid #b7b7b7;
+	height: 250px;
+}
+.column3 {
+	float: left;
+	padding: 0 10px;
+	width: 292px;
+	border-right:1px solid #b7b7b7;
+	height: 250px;
