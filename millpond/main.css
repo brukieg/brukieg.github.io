@@ -15,6 +15,7 @@ header img {
 }
 nav {
 	float:right;
+	margin-top: 3.5em;
 }
 nav a {
 	text-decoration: none;
@@ -46,32 +47,53 @@ section#splash h2 {
 	background-color: rgba(255,255,255,.5);
 	text-align: center;
 	}
+h4 {
+	font-size: 2.5em;
+	font-weight: 100px;
+	text-align: center;
+	color: #5b8503;
+}
 section#maincontent {
-	padding: 2em 3em 2em 3em;
+	padding: ;
+	margin: 3em;
+
 }
 .column1 {
 	float: left;
-	padding: 0 10px;
-	width: 292px;
+	padding: 1em 2em;
+	width: 400px;
+	height:200px;
 	border-right:1px solid #b7b7b7;
-	height: 250px;
 }
 .column2 {
 	float: left;
-	padding: 0 10px;
-	width: 292px;
+	padding: 1em 2em;
+	width: 400px;
+	height:200px;
 	border-right:1px solid #b7b7b7;
 	border-left: 1px solid #b7b7b7;
-	height: 250px;
 }
 .column3 {
 	float: left;
-	padding: 0 10px;
-	width: 292px;
-	border-right:1px solid #b7b7b7;
-	height: 250px;
+	padding: 1em 2em;
+	width: 400px;
+	height:192px;
 }
-.columncontent {
+section#maincontent li {
 	list-style: none;
+	font-weight: 100px;
+	text-align: center;
+	line-height: 2.5em;
+	font-size: 1.5em;
+
 }
+section#maincontent p {
+	text-align: center;
+	font-weight: 200px;
 }
+section#maincontent img{
+	padding: 0em 4em;
+}
+
+
+
