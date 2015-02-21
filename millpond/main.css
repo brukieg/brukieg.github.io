@@ -78,6 +78,7 @@ section#maincontent {
 	padding: 1em 2em;
 	width: 400px;
 	height:192px;
+	text-align: center;
 }
 section#maincontent li {
 	list-style: none;
