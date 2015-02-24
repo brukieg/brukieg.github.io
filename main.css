@@ -27,6 +27,22 @@ h1.logo {
     display: inline-block;
     margin: 0;
 }
-nav.mainnav li {
+div#topnav .main-nav .active-link>a {
+    color: #fff;
+}
+div#topnav {
+    float: left;
+    position: relative
+    max-width: 75%;
+}
+nav ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#topnav nav li {
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    text-align: right;
 }
