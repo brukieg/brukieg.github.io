@@ -27,3 +27,6 @@ h1.logo {
     display: inline-block;
     margin: 0;
 }
+nav.mainnav li {
+    list-style: none;
+}
