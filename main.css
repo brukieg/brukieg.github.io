@@ -37,7 +37,7 @@ nav ul {
     margin: 0;
     padding: 0;
 }
-#topnav nav li {
+#topnav a nav li {
     display: inline-block;
     margin-right: .7em;
     position: relative;
