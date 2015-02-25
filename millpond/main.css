@@ -12,7 +12,6 @@ header {
 header p {
 	font-style: italic;
 	font-weight: 100;
-	float: right;
 	padding: 0 1.5em;
 
 }
@@ -22,8 +21,6 @@ header img {
 }
 
 #bar {
-	width: 100%;
-	margin: 0 3.5em;
 	text-align: center;
 }
 nav a {
