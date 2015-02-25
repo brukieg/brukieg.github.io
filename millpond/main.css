@@ -7,21 +7,32 @@ body {
 }
 header { 
 	background: #ffffff;
-	padding: 1em 6em;
-	margin: 0;
+	border-top: 20px solid #182c47;
 }
+header p {
+	font-style: italic;
+	font-weight: 100;
+	float: right;
+	padding: 0 1.5em;
+
+}
+
 header img {
 	float:left;
 }
-nav {
-	float:right;
-	margin-top: 3.5em;
+
+#bar {
+	width: 100%;
+	margin: 0 3.5em;
+	text-align: center;
 }
 nav a {
 	text-decoration: none;
 	color: rgb(24, 44, 71);
-	padding: .5em;
+	padding: .3em 1em;
+	background-color: #5b8503;
 }
+
 .clearfix:after { 
 	content: "."; 
 	visibility: hidden; 
@@ -33,29 +44,19 @@ section#splash {
 	background-image:url(images/bunnyincolor.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	display: block;
-	height: 450px;
+	height: 75vh;
 }
 section#splash img {
-	
+	float: left;
 }
 
-section#splash h2 { 
-	font-style: italic;
-	font-weight: 100;
-	font-size: 2em;
-	background-color: rgba(255,255,255,.5);
-	text-align: center;
-	}
 h4 {
 	font-size: 2.5em;
 	font-weight: 100px;
 	text-align: center;
-	color: #5b8503;
 }
 section#maincontent {
-	padding: ;
-	margin: 3em;
+	margin: 1em;
 }
 section#maincontent li {
 	list-style: none;
@@ -69,48 +70,43 @@ section#maincontent p {
 	text-align: center;
 	font-weight: 200px;
 }
-section#maincontent img{
-	background-repeat: no-repeat;
-	background-size: cover;
-	display: block;
-	width: 100%;
+section#maincontent img {
+	float: right;
+	margin: 0 .5em;
+	padding: 0 3em;
 }
+
 .column1 {
 	float: left;
-	border-bottom: 1px solid #b7b7b7;
 }
-.services {
-	margin: 2em;
-	float: left;
-	padding:0 6em;
-}
-.services p{
-	margin-top: 1.5em;
-	font-size: 1.2em;
-}
+
 
 .column2 {
 	float: left;
-	padding: 1em 2em;
+	padding: em 1.5em;
 	width: 400px;
-	height:200px;
+	height:350px;
 	margin-top: 2em;
+	border-right: 1px solid #b7b7b7;
+}
+.column2 h4 {
+	text-decoration: underline;
 }
 .column3 {
 	float: left;
-	padding: 1em 1em 2em 2em;
-	margin-top: 2em;
-	height: 300px;
-	border-left: 1px solid #b7b7b7;
-	display: inline;
+	margin: 2em 2em 0 2.5em;
+	height: 350px;
+	width: auto;
 }
 .column3 ul {
+	float: left;
 	font-size: 1em;
 	text-align: left;
 	list-style: none;
 }
-.column3 img {
-	float: right;
+.column3 li {
+	border-bottom: 1px solid #b7b7b7;
+	margin: .2em;
 }
 .column3 p {
 	font-size: 1.2em;
@@ -121,9 +117,15 @@ section#maincontent img{
 .column3 a {
 	text-decoration: none;
 	margin-top: 2em;
+	color: #5b8503;
 }
-.column3 h4 {
-	text-align: left;
+section#contact  img {
+	float: right;
+	padding: 2.5em 2em;
+}
+section#contact h4 {
+	text-decoration: underline;
+
 }
 
 
