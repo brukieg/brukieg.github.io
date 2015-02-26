@@ -7,17 +7,18 @@ body {
 }
 header {
     background-color: rgba(255,255,255.5);
+    height: 50px;
 }
 header li {
     list-style: none;
     text-transform: uppercase;
     text-decoration: none;
-    float: right;
+ 
 }
 header#logo {
     float: left;
 }
 .navlist {
-    float:; left;
+    float:; right;
 }
 
