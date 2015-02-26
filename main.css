@@ -6,45 +6,6 @@ body {
     font-family: 'Aktiv Grotesk Std', sans-serif;
     padding: 0 0 0 30px;
 }
-div {
-    display: block;
-}
-div#headerwrapper {
-    bottom: 150px;
-}
-header#header {
-    padding: 20px 25px;
-    color: #000000;
-}
-div#logo {
-    margin-right: 10px;
-    float: left;
-}
-div#topnav {
-    float: right;
-    padding: 2.3em 0;
-}
-h1.logo {
-    height: 71px;
-    display: inline-block;
-    margin: 0;
-}
-
-nav ul {
-    list-style: none;
-    font-size: 1.6em;
-    font-weight: 100;
-    margin: 0;
-    padding: 0;
-}
-#topnav nav li {
-    display: inline-block;
-    margin-right: .7em;
-    position: relative;
-    text-align: right;
-    color: #000000;
-    text-decoration: none;
-}
-.weddinggallery {
-    
+.container {
+    bottom: 40px;
 }
