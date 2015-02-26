@@ -6,14 +6,18 @@ body {
     font-family: 'Aktiv Grotesk Std', sans-serif;
 }
 header {
+    background-color: rgba(255, 255, 255, .5);
+    height: 50px;
+    margin: 0px auto;
     
 }
-header li {
+header li a {
     list-style: none;
     text-transform: uppercase;
     text-decoration: none;
     padding: 0 .5em;
     float: right;
+    color: #000;
  
 }
 header#logo {
@@ -21,8 +25,6 @@ header#logo {
 }
 .navlist {
     float:; right;
-    background-color: rgba(255, 255, 255, .5);
-    height: 50px;
-    margin: 0px auto;
+    
 }
 
