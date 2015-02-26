@@ -5,7 +5,12 @@ body {
     background-size: cover;
     font-family: 'Aktiv Grotesk Std', sans-serif;
 }
-.container {
+header {
     color: rgba(255,255,255.5);
+}
+header li {
+    list-style: none;
+    text-transform: uppercase;
     
+}
 }
