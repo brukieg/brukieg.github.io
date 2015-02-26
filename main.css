@@ -15,6 +15,7 @@ header li {
     text-transform: uppercase;
     text-decoration: none;
     padding: 0 .5em;
+    float: right;
  
 }
 header#logo {
