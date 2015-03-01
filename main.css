@@ -94,6 +94,7 @@ div.column a {
 }
 div#photoshoots {
     float: left;
+    height: 200px;
 }
 div#photoshoots a:hover {
     background: url("images/photoshootbutton.jpg");
@@ -102,6 +103,7 @@ div#photoshoots a:hover {
 }
 div#weddings{
     float: right;
+    height: 200px;
 }
 div#weddings a:hover {
     background: url("images/weddingsbutton.jpg");
