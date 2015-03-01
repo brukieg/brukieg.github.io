@@ -3,7 +3,6 @@ body {
     background: url("images/covermodel.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-<<<<<<< Updated upstream
     background-size: cover;
     font-family: 'Aktiv Grotesk Std', sans-serif;
 }
@@ -27,12 +26,6 @@ header#logo {
 }
 .navlist {
     float:; right;
-    
-}
-
-=======
-    background-size: 100%;
-    font-family: 'proxima-nova-sc-osf', helvetica, sans-serif;
 }
 header {
     height: 60vh;
