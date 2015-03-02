@@ -33,13 +33,20 @@ nav a {
 	height: 0;
 }
 div#bio {
-	width: 50%;
+	width: 40%;
 	margin: 2em;
 	padding: 3em;
+    text-align: justify;
+    color: #fff;
+    background-color: #fd633b;
 }
 div#bio h1 {
 	font-weight: 100;
 	font-size: 3em;
 	padding-bottom: .5em;
+}
+div#bio p {
+    font-weight: 100;
+    line-height: 1.2em;
 }
 

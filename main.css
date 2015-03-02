@@ -3,8 +3,8 @@ body {
     background: url("images/covermodel.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
     font-family: 'Aktiv Grotesk Std', sans-serif;
+    width: 100%;
 }
 header {
     height: 50px;
@@ -39,7 +39,9 @@ header {
     height: 20vh;
 }
 div#contentwrapper {
-    padding: 0 30em;
+    margin-left: auto;
+    margin-right: auto;
+    width:30%;
 }
 nav {
     padding: 1em;
@@ -49,7 +51,7 @@ nav a {
     text-transform: uppercase;
     font-size: 1em;
     padding: 0 1.5em;
-    font-weight: 100;
+    font-weight: 400;
     line-height: 2em;
 }
 div#social {
@@ -63,9 +65,6 @@ div#social a {
 #contentwrapper a:hover{
     color: rgba(255, 255, 255, .5);
 }
-#social img:hover{
-    color: rgba(255, 255, 255, .5);
-}
 .clearfix:after{
     visibility: hidden;
     display:block;
@@ -75,40 +74,44 @@ div#social a {
     height: 0;
 }
 section#content {
-    width: 100%;
-    height: 30vh;
+    width: auto;
+    height: 20vh;
     background-color: #fff;
 }
-div.column {
-    padding: 2%;  
+div.column1, .column2 {
+    width: 50%;
+    height: 20vh;
 }
-div.column a {
+div.column1 a, .column2 a {
     color: #000;
     font-weight: 100;
     font-size: 2em;
     text-decoration: none;
     text-transform: uppercase;
-    border: 1px solid #000;
-    padding: .5em 6em;
-    
-}
-div#photoshoots {
-    float: left;
-    height: 200px;
-}
-div#photoshoots a:hover {
-    background: url("images/photoshootbutton.jpg");
-    background-repeat: no-repeat;
-    height: 200px;
+    position: relative;  
+    border: 2px solid #000;
+    margin: 2em 7em;
+    padding:.5em;
 }
 div#weddings{
-    float: right;
-    height: 200px;
-}
-div#weddings a:hover {
     background: url("images/weddingsbutton.jpg");
     background-repeat: no-repeat;
+    float: left;
 }
+div#weddings:hover {
+    border: none;
+    opacity: .4;
+}   
+div#photoshoots {
+    background: url("images/photoshootbutton.jpg");
+    float: right;
+    background-repeat: no-repeat;
+}
+div#photoshoots:hover {
+    border: none;
+    opacity: .4;
+}
+
 
 
 >>>>>>> Stashed changes
