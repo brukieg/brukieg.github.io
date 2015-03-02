@@ -29,10 +29,6 @@ header#logo {
 header {
     height: 60vh;
 }
-.logo {
-    padding: 0;
-}
-
 #splash {
     background-color: #000;
     width: 100%;
@@ -88,28 +84,28 @@ div.column1 a, .column2 a {
     font-size: 2em;
     text-decoration: none;
     text-transform: uppercase;
-    position: relative;  
+    position: absolute;  
     border: 2px solid #000;
-    margin: 2em 7em;
-    padding:.5em;
+    margin: 1em 7em;
+    padding: .5em;
 }
 div#weddings{
     background: url("images/weddingsbutton.jpg");
     background-repeat: no-repeat;
     float: left;
 }
-div#weddings:hover {
+div#weddings a:hover {
     border: none;
-    opacity: .4;
+    color: #fff;
 }   
 div#photoshoots {
     background: url("images/photoshootbutton.jpg");
     float: right;
     background-repeat: no-repeat;
 }
-div#photoshoots:hover {
+div#photoshoots a:hover {
     border: none;
-    opacity: .4;
+    color: #fff;
 }
 
 
