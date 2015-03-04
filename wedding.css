@@ -1,9 +1,5 @@
  * { margin:0; padding:0; box-sizing: border-box; }
 body {
-    background: url("images/fifi.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
     font-family: 'proxima-nova-sc-osf', helvetica, sans-serif;
 }
 header {
@@ -39,22 +35,7 @@ nav a:hover{
 	clear: both;
 	height: 0;
 }
-div#bio {
-	width: 40%;
-	margin: 2em;
-	padding: 4em;
-    text-align: justify;
-    color: #fff;
-    background-color: #fd633b;
+section#photogrid img{
+    width: 33.33%;
+    float: left;
 }
-div#bio h1 {
-	font-weight: 100;
-	font-size: 3em;
-	padding-bottom: .5em;
-}
-div#bio p {
-    font-weight: 100;
-    line-height: 1.2em;
-    text-transform: lowercase;
-}
-
