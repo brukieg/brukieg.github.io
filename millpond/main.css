@@ -4,123 +4,102 @@ body {
 	font-family: 'Nimbus Sans', sans-serif;  
 	font-size: 18px;
 	color: rgb(24, 44,71);
-}
-header { 
-	background: #ffffff;
-	border-top: 20px solid #182c47;
-}
-header p {
-	font-style: italic;
-	font-weight: 100;
-	padding: 0 1.5em;
-	position: relative;
-	margin: .5em;
-}
-
-header img {
-	float:left;
-}
-
-#bar {
-	text-align: center;
-	margin: 2em 0;
-}
-nav a {
-	text-decoration: none;
-	color: rgb(24, 44, 71);
-	padding: .3em 1em;
+	margin-left: 8em;
+	margin-right: 8em;
 	background-color: #5b8503;
 }
-
-.clearfix:after { 
-	content: "."; 
-	visibility: hidden; 
-	display: block; 
-	height: 0; 
-	clear: both;
+section#background {
+	background-color: #fff;
+	
+}
+section#top img{
+	width: 40%;
+	margin-left: 2em;
+	float:left;
+	padding-top: .5em;
+}
+nav#bar {
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 4em;
+	padding-right: 3em;
+}
+nav#bar a {
+	text-decoration: none;
+	color: ##182c47;
+	padding: .3em 1em;
+	float: right;
+}
+.clearfix:after{
+    visibility: hidden;
+    display:block;
+    font-size: 0;
+    content: "";
+    clear:both;
+    height: 0;
+}
+div#contactbar {
+	background-color: #182c47;
+	margin-top: .5em;
+	width: 100%;
+	padding: .5em;
+	text-align: center;
+}
+div#contactbar a{
+	font-size: 2em;
+	font-weight: 300;
+	text-decoration: none;
+	color: #fff;
+	margin-bottom: 1em;
 }
 section#splash {
-	background-image:url(images/bunnyincolor.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 75vh;
+	width: 100%;
+	height: 50vh;
+	padding-bottom: 1em;
 }
-section#splash img {
-	float: left;
+section#splash img{
+	width: 65%;
+	float: left; 
 }
-
-h4 {
-	font-size: 2.5em;
-	font-weight: 100px;
-	text-align: center;
-}
-
-section#maincontent li {
-	list-style: none;
-	text-decoration: none;
-	font-weight: 100px;
-	text-align: center;
-	line-height: 2.5em;
-	font-size: 1.5em;
-}
-
-section#maincontent img {
-	margin: 0 .5em;
-	padding: 0 3em;
-}
-
-.column1 {
-	float: left;
-}
-
-
-.column2 {
-	float: left;
-	padding: em 1.5em;
-	width: 400px;
-	height:350px;
-	margin-top: 2em;
-	border-right: 1px solid #b7b7b7;
-}
-.column2 h4 {
-	text-decoration: underline;
-}
-.column3 {
-	float: left;
-	margin: 2em 2em 0 2.5em;
-	height: 350px;
-	width: auto;
-}
-.column3 ul {
-	float: left;
-	font-size: 1em;
-	text-align: left;
-	list-style: none;
-}
-.column3 li {
-	border-bottom: 1px solid #b7b7b7;
-	margin: .2em;
-}
-.column3 p {
-	font-size: 1.2em;
-	text-align: left;
-	font-weight: 700;
-	margin-top: 1em;
-}
-.column3 a {
-	text-decoration: none;
-	margin-top: 2em;
-	color: #5b8503;
-}
-section#contact  img {
+div.buttonsnav {
+	width: 35%;
+	padding: 0 1em;
 	float: right;
-	padding: 2.5em 2em;
+	background-color: #5b8503;
 }
-section#contact h4 {
-	text-decoration: underline;
-
+div.buttonsnav img {
+	width: auto;
+	height: auto;
 }
-
-
-
-
+.clearfix:after{
+    visibility: hidden;
+    display:block;
+    font-size: 0;
+    content: "";
+    clear:both;
+    height: 0;
+}
+section#tagline {
+	padding-top: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	border-bottom: 1px solid #000
+}
+section#tagline p {
+	margin-top: 1em;
+	font-size: 1.5em;
+	font-style: italic;
+	text-align: center;
+}
+section#maincontent {
+	margin: .5em;
+	padding: 3em;
+}
+.column {
+	width: 100%;
+	height: 20em;
+}
+div#services {
+	width: 100%
+}
