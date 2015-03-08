@@ -4,13 +4,16 @@ body {
 	font-family: 'Nimbus Sans', sans-serif;  
 	font-size: 18px;
 	color: rgb(24, 44,71);
-	margin-left: 8em;
-	margin-right: 8em;
 	background-color: #5b8503;
 }
-section#background {
+section#contentwrapper {
 	background-color: #fff;
-	
+	margin:7px auto;
+	width: 998px;	
+}
+section#top {
+	padding-bottom: .5em;
+	border-bottom: 1px solid #000;
 }
 section#top img{
 	width: 40%;
@@ -20,7 +23,7 @@ section#top img{
 }
 nav#bar {
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	line-height: 4em;
 	padding-right: 3em;
 }
@@ -54,18 +57,18 @@ div#contactbar a{
 }
 section#splash {
 	width: 100%;
-	height: 50vh;
-	padding-bottom: 1em;
+	padding-bottom: .5em;
+	padding-top: 1em;
 }
 section#splash img{
-	width: 65%;
-	float: left; 
+	width: 70%;
+	float:left;
+	border: #182c47;
+	padding-left: .5em;
 }
 div.buttonsnav {
-	width: 35%;
-	padding: 0 1em;
+	width: 30%;
 	float: right;
-	background-color: #5b8503;
 }
 div.buttonsnav img {
 	width: auto;
@@ -80,11 +83,9 @@ div.buttonsnav img {
     height: 0;
 }
 section#tagline {
-	padding-top: 1em;
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
-	border-bottom: 1px solid #000
 }
 section#tagline p {
 	margin-top: 1em;
@@ -93,13 +94,25 @@ section#tagline p {
 	text-align: center;
 }
 section#maincontent {
-	margin: .5em;
-	padding: 3em;
+	margin: 2em;
+	
+}
+div#services {
+	width: 100%;
+	margin-left: 5em;
+	margin-right: 5em;
+}
+div#services a{
+	text-decoration: none;
+	list-style: none;
+	margin: 0 1.9em;
+	font-size: 1.3em;
+}
+div#services img {
+	width: 64px;
+	margin: 0 5em;
 }
 .column {
 	width: 100%;
-	height: 20em;
-}
-div#services {
-	width: 100%
+	height: 10em;
 }
